@@ -28,6 +28,18 @@ try {
   console.error("Unable to connect to the database:", error);
 }
 
+// async function syncDatabase() {
+//   try {
+//     await sequelize.sync({ force: false }); // Set force to true to drop existing tables and re-create them
+//     console.log('Database synchronized successfully');
+//   } catch (error) {
+//     console.error('Error synchronizing database:', error);
+//   }
+// }
+
+// // Call the syncDatabase function to synchronize models
+// syncDatabase();
+
 fs.readdirSync(__dirname)
   .filter((file) => {
     return (

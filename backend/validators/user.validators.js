@@ -12,6 +12,10 @@ const reqisterUserValidation = zod.object({
   email: zod.string().email({ message: "Invalid email address" }),
 });
 
+// const loginUserValidation = zod.object({
+
+// })
+
 module.exports = {
   reqisterUserValidation,
 };

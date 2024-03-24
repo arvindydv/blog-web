@@ -2,6 +2,8 @@ require("dotenv").config();
 const app = require("./server");
 const model = require("./models");
 
+
+
 const startServer = async () => {
   try {
     app.listen(process.env.PORT || 8000, () => {
