@@ -1,0 +1,25 @@
+.web-log {
+  width: 12%;
+}
+.nav-list {
+  width: 45%;
+}
+
+.nav-list ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav {
+  width: 90%;
+  margin: 0px auto;
+  font-size: 1.3rem;
+}
+
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
